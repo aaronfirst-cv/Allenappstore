@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="8dp">
+
+<TextView
+    android:id="@+id/app_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:text="APP1"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/install_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Install"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true" />
+
+</RelativeLayout>
